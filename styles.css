@@ -1,2 +1,42 @@
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-/* Your CSS Code here. */
+.player {
+  max-width: 750px;
+  background: black;
+  color: white;
+}
+
+.viewer {
+  width: 100%;
+}
+
+.progress {
+  flex: 1;
+  height: 10px;
+  background: #555;
+  cursor: pointer;
+}
+
+.progress_filled {
+  width: 0%;
+  background: #ffc600;
+  height: 100%;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+}
